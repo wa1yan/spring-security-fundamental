@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-security-lesson3
+
+auth:
+  secret:
+    key:
+      value: secret
+
+server:
+  port: 8092
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
