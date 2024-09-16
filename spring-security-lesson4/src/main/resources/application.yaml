@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-security-lesson4
+
+server:
+  port: 8094
+
+secret:
+  key: 'secret'
