@@ -13,4 +13,9 @@ public class GreetController {
         authentication.getAuthorities().forEach(System.out::println);
         return "Hello from backend service.";
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello from backend service with post request.";
+    }
 }

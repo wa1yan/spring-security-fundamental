@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 8092
 spring:
   datasource:
     url: jdbc:mysql://localhost:3366/spring-security?createDatabaseIfNotExist=true
